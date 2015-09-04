@@ -347,4 +347,9 @@ public class Club extends AbstractEntity {
     public void setCoachidCoach(Coach coachidCoach) {
         this.coachidCoach = coachidCoach;
     }
+    
+    @Override
+    public String toString() {
+        return id + "|" + attendanceAvg;
+    }
 }

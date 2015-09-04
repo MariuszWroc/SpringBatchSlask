@@ -164,4 +164,8 @@ public class Finance extends AbstractEntity{
         this.clubList = clubList;
     }
     
+    @Override
+    public String toString() {
+        return id + "|" + budget;
+    }
 }

@@ -186,4 +186,8 @@ public class Position extends AbstractEntity{
         this.playerList = playerList;
     }
     
+    @Override
+    public String toString() {
+        return id + "|" + goalkeeper;
+    }
 }

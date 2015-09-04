@@ -78,9 +78,9 @@ public class City extends AbstractEntity{
     public void setStadiumList(List<Stadium> stadiumList) {
         this.stadiumList = stadiumList;
     }
-    
-    @Override
-    public String toString() {
-        return id + "|" + cityName;
-    }
+//    
+//    @Override
+//    public String toString() {
+//        return id + "|" + cityName;
+//    }
 }
